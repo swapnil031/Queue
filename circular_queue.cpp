@@ -38,7 +38,7 @@ class  circualr{
             }
         }
         void print(){
-            for(int i=f;i<=r;i++){
+            for(int i=f;i<=r;i=(i+1)%max){
                 cout<<a[i]<<" ";
             }
         }
